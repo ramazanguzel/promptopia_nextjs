@@ -23,7 +23,6 @@ const UpdatePrompt = () => {
 
       const data = await response.json();
 
-      console.log(data);
       setPost({
         prompt: data.prompt,
         tag: data.tag,
