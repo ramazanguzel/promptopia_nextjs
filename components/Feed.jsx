@@ -73,7 +73,6 @@ const Feed = () => {
     setSearchedResults(searchResult);
   };
 
-  // get ready for deployment
   return (
     <section className="feed">
       <form className="relative w-full flex-center">
